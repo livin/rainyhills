@@ -6,6 +6,8 @@ given surface profile represented by array of integers.
 It features great user interface and can be deployed to any Java EE 7 compatible app server, although
 Wildfly application server is recommended.
 
+![Overview](doc/images/overview.png)
+
 ## Installation
 Prerequisites:
  - Java JDK 8 http://www.oracle.com/technetwork/java/javase/
