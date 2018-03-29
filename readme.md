@@ -8,6 +8,28 @@ Wildfly application server is recommended.
 
 ![Overview](doc/images/overview.png)
 
+## Problem
+
+Imagine that the array describes profile of a surface, for example.
+
+3 2 4 1 2
+
+Now imagine that there was a heavy rain, and all possible "holes" are filled with water. In this case, we have volume == 2 units of water.
+
+Write an application which takes an array as an input, and calculates the volume of water which remained after the rain, in units.
+
+## Algorithm
+
+To solve this problem we use single-pass algorithm with O(n) time complexity and O(1) memory.
+It doesn't require extra O(n) memory.
+
+The performance is the same in best and worst case.
+
+In addition for demo purposes algorithm provides water remained on each hill - this requires
+extra O(n) memory, but it can be disabled in algorithm if it's not needed.
+
+For details see SurfaceWaterCalc.java.
+
 ## Installation
 Prerequisites:
  - Java JDK 8 http://www.oracle.com/technetwork/java/javase/
