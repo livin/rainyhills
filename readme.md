@@ -30,6 +30,16 @@ extra O(n) memory, but it can be disabled in algorithm if it's not needed.
 
 For details see SurfaceWaterCalc.java.
 
+## Design
+
+App consists of following components:
+ - Surface model -  represents the surface profile.
+ - WaterVolumeResult model - represents result of water volume calculation for particular surface.
+ - JSF view for application UI which binds to surfaceController.
+ - SurfaceController - provides input handling, calculation request and chart model representation.
+ - SurfaceWaterCalc - Stateless EJB which provides calculation for the surface.
+ - SurfaceWaterCalcTest - tests all possible cases for the calculation algorithm.   
+
 ## Installation
 Prerequisites:
  - Java JDK 8 http://www.oracle.com/technetwork/java/javase/
