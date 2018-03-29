@@ -26,6 +26,10 @@ Installation Steps:
     unzip rainyhills.zip
     cd rainyhills
     ``` 
+    or
+    ```
+    git clone https://github.com/livin/rainyhills.git
+    ```
 3. Run test & build with maven
     ```
     mvn clean install
