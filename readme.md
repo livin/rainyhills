@@ -32,6 +32,13 @@ For details see SurfaceWaterCalc.java.
 
 ## Design
 
+App uses JSF 2.2 for model/view layer and stateless EJB 3.2 for calculation. It can be deployed
+to any Java EE 7 compatible container.
+
+On UI side following additional components are used:
+ - PrimeFaces Google Chart component
+ - BootsFaces used for Bootstrap-friendly layout and components.
+
 App consists of following components:
  - Surface model -  represents the surface profile.
  - WaterVolumeResult model - represents result of water volume calculation for particular surface.
