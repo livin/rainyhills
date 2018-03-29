@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:b="http://bootsfaces.net/ui">
+
+<!-- The template for our app, defines some regions -->
+
+<h:head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Rainy Hills</title>
+    <!-- Google Chart API -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"/>
+    <h:outputStylesheet library="css" name="style.css"/>
+    <ui:insert name="head" />
+</h:head>
+
+<h:body>
+    <b:container>
+        <ui:insert name="content" />
+
+        <hr/>
+        <footer>
+            <p>© Vladimir Livin 2018</p>
+        </footer>
+    </b:container>
+</h:body>
+</html>
